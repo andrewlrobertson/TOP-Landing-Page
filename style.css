@@ -1,0 +1,60 @@
+/*style.css*/
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 50px;
+}
+
+.header-container{
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.logo{
+    font-weight: 900;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-links-ul{
+    display: flex;
+    padding-left: 0px;
+    list-style: none;
+    gap: 30px;
+}
+
+.header-links-a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none; 
+}
+
+.content1{
+    display: flex;
+}
+
+.content2{
+    display: flex;
+}
+
+.content3{
+    display: flex;
+}
+
+.footer{
+    display: flex;
+}
