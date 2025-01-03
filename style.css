@@ -55,7 +55,7 @@ body{
     width: 1000px;
     align-items: center;
     display: flex;
-    padding: 100px 0px;    
+    padding: 50px 0px;    
 }
 
 .signup-lefthalf{
@@ -76,7 +76,7 @@ body{
     color: #e5e7eb;
 }
 
-.cat{
+.rounded{
     border-radius: 20px;
 }
 
