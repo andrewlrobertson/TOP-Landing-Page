@@ -137,8 +137,35 @@ body{
     text-align: center;
 }
 
-.content3{
+.quote-section{
     display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote-container{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 0px;
+}
+
+.thor{
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: auto;
+    margin-top: 0px;
 }
 
 .content4{
