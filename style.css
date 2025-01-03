@@ -131,6 +131,12 @@ body{
     height: 200px;
 }
 
+.tile-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 .content3{
     display: flex;
 }
