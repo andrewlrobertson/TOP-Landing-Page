@@ -91,12 +91,41 @@ body{
     font-weight: bold;
 }
 
-.content2{
+.tiles{
     display: flex;
+    width: 100%;
+}
+
+.tiles-contianer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+}
+
+.tiles-header{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.tiles-list{
+    display: flex;
+    gap: 50px;
+}
+
+.tile{
+    height: 300px;
+    width: 200px;
 }
 
 .content3{
     display: flex;
+}
+
+.content4{
+    display: flex
 }
 
 .footer{
