@@ -125,6 +125,12 @@ body{
     flex-direction: column;
 }
 
+.center-crop{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
 .content3{
     display: flex;
 }
