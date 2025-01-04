@@ -83,6 +83,7 @@ body{
 .signup-button{
     margin-top: 20px;
     width: 100px;
+    height: 30px;
     background-color: #3882f6;
     border-style: none;
     border-radius: 5px;
@@ -168,8 +169,52 @@ body{
     margin-top: 0px;
 }
 
-.content4{
-    display: flex
+.call-section{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-container{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #3882f6;
+    padding: 50px;
+    margin: 50px 0px;
+    align-items: center;
+}
+
+.call-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.call-header{
+    font-weight: 900;
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+.call-description{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0px;
+}
+
+.call-button{
+    width: 100px;
+    height: 40px;
+    background-color: #3882f6;
+    border-style: none;
+    border-radius: 5px;
+    color: #f9faf8;
+    padding: 5px;
+    font-weight: bold;
+    border: 5px solid #f9faf8;
 }
 
 .footer{
