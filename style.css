@@ -206,7 +206,7 @@ body{
 }
 
 .call-button{
-    width: 100px;
+    width: 110px;
     height: 40px;
     background-color: #3882f6;
     border-style: none;
@@ -214,9 +214,19 @@ body{
     color: #f9faf8;
     padding: 5px;
     font-weight: bold;
-    border: 5px solid #f9faf8;
+    border: 3px solid #f9faf8;
 }
 
 .footer{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    width: 100%;
+    padding: 20px;
+}
+
+.footer-text{
+    font-size: 18px;
+    color: #e5e7eb;
 }
